@@ -1,0 +1,26 @@
+{
+    "name": "enemis/php-simple-html-dom",
+    "type": "library",
+    "description": "A HTML DOM parser written in PHP5+ let you manipulate HTML in a very easy way! Adapted to PHP 7+. Supports invalid HTML. Find tags on an HTML page with selectors just like jQuery. Extract contents from HTML in a single line.",
+    "keywords": ["html", "dom", "parser"],
+    "homepage": "https://github.com/enemis/php-simple-html-dom",
+    "license": "MIT",
+    "authors": [
+        {   
+            "name": "S.C. Chen",
+            "homepage": "http://sourceforge.net/projects/simplehtmldom/"
+        },
+        {
+            "name": "Enemis",
+            "email": "stadnikandreypublic@gmail.com",
+            "homepage": "https://github.com/enemis"
+        }   
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-0": { "Enemis\\PhpSimpleHtmlDom": "src/" }
+    }    
+}
