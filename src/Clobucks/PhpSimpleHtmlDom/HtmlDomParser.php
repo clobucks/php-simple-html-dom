@@ -1,6 +1,6 @@
 <?php
 
-namespace Enemis\PhpSimpleHtmlDom;
+namespace Clobucks\PhpSimpleHtmlDom;
 
 require 'simplehtmldom_1_5' . DIRECTORY_SEPARATOR . 'simple_html_dom.php';
 

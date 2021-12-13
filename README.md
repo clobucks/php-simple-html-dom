@@ -21,9 +21,15 @@ Install
 
  composer.phar
 ```json
+ "repositories": [
+  {
+    "type": "vcs",
+    "url": "https://github.com/clobucks/php-simple-html-dom"
+  }
+],
 "require": {
-    "enemis/php-simple-html-dom-parser": "1.5.2"
-    }
+    "clobucks/php-simple-html-dom-parser": "1.5.2"
+}
 ```
 
 Usage
